@@ -21,7 +21,7 @@ export default function About() {
           opportunity to be accepted into the coding bootcamp program through
           the University of Denver. Hello my name is Eric Dodgion, currently
           residing in Colorado Springs, Colorado. I am a developer strengthening
-          my skills in front and back end web development. Throughout these next
+          my skills in full stack web development. Throughout these next
           few months I'm very excited to learn various skill sets so that I may
           hone them into something that will help me evolve into a flourishing
           developer in the industry. My goals are to find opportunities to work
@@ -31,7 +31,7 @@ export default function About() {
           engineers to develop unique amp simulators is a main goal.
         </p>
       </div>
-    <div className = "center">
+    <div className = "container text-center">
       <img class="aboutmepics" src="./images/IMG_3931.jpg" width="400px"
           height="400px" />
       <img class="aboutmepics" src="./images/LGC_7731.JPG"width="400px"
