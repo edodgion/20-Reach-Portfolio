@@ -1,11 +1,11 @@
 import './App.css';
-import Header from "./components/Header";
+import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<div className="portfolio-app">
-			<Header />
+			<PortfolioContainer />
 			<br />
 			<br />
 			<br />
@@ -16,4 +16,3 @@ function App() {
 }
 
 export default App;
-
