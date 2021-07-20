@@ -1,22 +1,36 @@
 import React from 'react';
+import { VscFilePdf } from "react-icons/vsc";
 
 export default function Resume() {
 	return (
-		<div className="resume bg dark">
+		<div className="body justify-content-center">
 		<h1>Resume</h1>
-		<p>
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-		  velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-		  ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-		  non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-		  ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-		  rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-		  tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-		  porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-		  vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-		  fames ac ante ipsum primis in faucibus.
-		</p>
-	  </div>
+		<br />
+		<br />
+		<h3>Download my full resume here: < VscFilePdf size={40} /></h3>
+		<br />
+		<br />
+		<h3>Education</h3>
+<b>February 2021 - July 2021 University of Denver / Full Stack Web Development:</b>
+<br />
+<br />
+
+A 24-week bootcamp program focused on gaining technical programming skills for full stack development.
+Laying a strong foundation in coding and boosting performance with hands-on training in real-world
+applications.
+		
+		<br />
+		<br />
+		<h3>Skills</h3>
+		
+		<b>Languages, Frameworks and Tech</b>
+<br />
+<br />
+
+HTML5 - CSS3 - JavaScript - jQuery - Node.js - PHP - Laravel - Express.js - MVC - React.js -
+Database Theory - MongoDB - MySQL - Command Line - Git Bash
+
+ </div>
 		
 	);
 }

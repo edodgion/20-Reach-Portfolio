@@ -1,11 +1,7 @@
-#root {
-	background-color: black;
-}
 .portfolio-app {
   width: 100%;
 }
 .topNav {
-
   background: black;
 }
 
@@ -22,6 +18,11 @@
 	border-radius: 2px;
 }
 
+.nav-link:hover {
+	color: white;
+	font-weight: 600;
+}
+
 div h1 p {
   color: white;
 }
@@ -31,13 +32,13 @@ div h1 p {
 }
 
 .profilePic {
-	float: left;
+	float: right;
 	margin: 25px 35px 35px 25px;
-	max-width: 13rem;
+	max-width: 8rem;
 	border-radius: 5rem;
 	border-width: 10px;
-	border-style: groove solid double;
-	box-shadow: -5px -5px 0px 0px darkblue;
+	border-style: groove;
+	box-shadow: -5px -5px 0px 0px darkgreen;
 }
 
 .carousel-inner {
@@ -55,13 +56,12 @@ div h1 p {
 }
 
 .project {
-	color:blanchedalmond;
 	margin: 10px;
 }
 
 .project:hover {
-	box-shadow: inset 0px 0px 8px darkblue,
-	0 0 15px blue;
+	box-shadow: inset 0px 0px 8px white,
+	0 0 15px white;
 }
 
 .projectHeader {

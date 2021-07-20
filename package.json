@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://CodyG-2021.github.io/20-React-Portfolio",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
@@ -19,15 +18,14 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-		"predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

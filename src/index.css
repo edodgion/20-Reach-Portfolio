@@ -1,6 +1,5 @@
 .footer {
-  margin-top: 1rem;
-  padding: 1rem;
+  padding: 0rem;
   background: black;
   position: fixed;
   bottom: 0;
@@ -12,13 +11,10 @@
 
 .footerName{
 margin: 15px 0px 0px 15px;
-color: white;
+color:white;
 }
 
 .iconLink {
 	color: white;
 }
 
-.body {
-  background-color: black;
-}

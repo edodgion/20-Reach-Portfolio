@@ -6,18 +6,6 @@ export default function Contact() {
     <div className='mx-5 mt-3 p-3'>
       <h1 className="text-start">Contact me</h1>
 			<Form />
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
     </div>
   );
 }

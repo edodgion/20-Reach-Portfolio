@@ -9,6 +9,7 @@ export default function About() {
         <img className="profilePic" src="./img/portfolio" alt="Eric Dodgion"/>
 
         <br />
+        <br />
         <p>
           How have you utilized your time in a world wide pandemic? Are the
           projects you've been juggling still up in the air? With the current
