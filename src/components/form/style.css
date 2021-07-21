@@ -2,19 +2,14 @@
   margin: 45px;
 }
 
-.form input {
+.form-control {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
 }
 
-.formHearder {
-  color: white;
-  margin-left: 25px;
-}
-
-.formCont {
+.form-group {
   background: black;
 	border-radius: 15px;
   box-shadow: 10px 5px 5px gray;

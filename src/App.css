@@ -38,7 +38,7 @@ div h1 p {
 	border-radius: 5rem;
 	border-width: 10px;
 	border-style: groove;
-	box-shadow: -5px -5px 0px 0px darkgreen;
+	box-shadow: -5px -5px 0px 0px darkslategray;
 }
 
 .carousel-inner {

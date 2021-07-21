@@ -6,10 +6,6 @@ function App() {
 	return (
 		<div className="portfolio-app">
 			<PortfolioContainer />
-			<br />
-			<br />
-			<br />
-			<br />
 			<Footer />
 		</div>
 	);
