@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
    
    
     <ul className="nav nav-tabs topNav justify-content-start">
-      <li className="nav-item p-3">
+      <li className="nav-item">
 
         {/* <a className = "pageTitle">Eric Dodgion</a> */}
 
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item p-3">
+      <li className="nav-item">
         <a
           href="#Projects"
           onClick={() => handlePageChange('Projects')}
@@ -31,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item p-3">
+      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item p-3">
+      <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
