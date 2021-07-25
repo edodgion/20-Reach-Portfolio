@@ -1,17 +1,22 @@
 import React from 'react';
 import { VscFilePdf } from "react-icons/vsc";
 import resume from "../../resume/Resume.pdf";
+import { IconContext } from "react-icons";
 
 export default function Resume() {
 	return (
-		<div className= "container">
+		<div className= "container text">
 		<div className="col-sm justify-content-center">
 		<h1>Resume</h1>
 		<br />
 		<br />
 		<h3>Download my full resume here:
 			<a className="resumeLink" href={resume}>
-				< VscFilePdf size={40} />
+			<IconContext.Provider	
+			value={{color: 'white', size:'40'}} 
+			>
+				< VscFilePdf />
+		</IconContext.Provider>
 			</a>
 		</h3>
 

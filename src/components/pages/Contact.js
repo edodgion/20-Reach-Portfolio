@@ -5,7 +5,7 @@ import { AiTwotonePhone } from 'react-icons/ai';
 
 export default function Contact() {
   return (
-    <div class="container">
+    <div class="container text">
       <div class="row align-items-start">
         <div class="col">
           <h1>Contact me</h1>

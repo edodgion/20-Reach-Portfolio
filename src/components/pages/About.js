@@ -4,7 +4,7 @@ import portoflioPic from "../../images/portfoliopic.jpg";
 export default function About() {
   return (
     <div className="container">
-      <div className="mx-2 mt-5 p-2 aboutMe">
+      <div className="aboutMe text">
         <h1 className="text-right">About Eric Dodgion</h1>
         <img src={portoflioPic} className="profilePic" alt="Eric Dodgion" />
 

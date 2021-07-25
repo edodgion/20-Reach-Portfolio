@@ -5,7 +5,7 @@ import { FaInstagram } from 'react-icons/fa' ;
 
 export default function Footer() {
 	return (
-		<footer className="footer pt-1">
+		<footer className="footer">
 			<div className="container text-center">
 				<div>
 				<a className="iconLink" href='https://www.instagram.com/thebandoryx/'>
