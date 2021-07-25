@@ -38,8 +38,7 @@ HTML5 - CSS3 - JavaScript - jQuery - Node.js - PHP - Laravel - Express - MVC - R
 Database Theory - MongoDB - MySQL - Command Line - Git Bash
 
  </div>
- 
- </div>
+</div>
 		
 	);
 }
