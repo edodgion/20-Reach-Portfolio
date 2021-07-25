@@ -1,11 +1,11 @@
 import './App.css';
-import PortfolioContainer from "./components/PortfolioContainer";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<div className="portfolio-app">
-			<PortfolioContainer />
+			<Header />
 			<Footer />
 		</div>
 	);

@@ -8,14 +8,14 @@ export default function Footer() {
 		<footer className="footer pt-1">
 			<div className="container text-center">
 				<div>
+				<a className="iconLink" href='https://www.instagram.com/thebandoryx/'>
+						<FaInstagram size={38} />
+					</a>
 					<a className="iconLink" href='https://github.com/edodgion'>
 						<FaGithubSquare size={35} />
 					</a>
 					<a className="iconLink" href='https://www.linkedin.com/in/eric-dodgion-9a7003205/'>
 						<AiFillLinkedin size={40} />
-					</a>
-					<a className="iconLink" href='https://www.instagram.com/barry.manowar/'>
-						<FaInstagram size={38} />
 					</a>
 					<div className="footerName" >© Eric Dodgion 🎸</div>
 				</div>

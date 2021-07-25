@@ -34,25 +34,9 @@ div h1 p {
 .profilePic {
 	float: right;
 	margin: 25px 35px 35px 25px;
-	max-width: 8rem;
-	border-radius: 5rem;
-	border-width: 10px;
-	border-style: groove;
-	box-shadow: -5px -5px 0px 0px darkslategray;
-}
-
-.carousel-inner {
-	max-height: 400px;
-	min-height: 400px;
-}
-
-.carousel-item {
-	max-height: 400px;
-	min-height: 400px;
-}
-
-.carousel-inner .carousel-caption {
-	margin-bottom: 300px;
+	max-width: 250px;
+	border-radius: 10em;
+	box-shadow: 10px 5px 5px gray;
 }
 
 .project {
@@ -76,6 +60,7 @@ div h1 p {
 }
 
 .projectImg{
-	min-height: 192px;
-	max-height: 192px;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
 }

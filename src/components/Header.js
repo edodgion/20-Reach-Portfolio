@@ -5,7 +5,7 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
-export default function PortfolioContainer() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState('About');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.

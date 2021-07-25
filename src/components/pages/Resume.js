@@ -1,13 +1,20 @@
 import React from 'react';
 import { VscFilePdf } from "react-icons/vsc";
+import resume from "../../resume/Resume.pdf";
 
 export default function Resume() {
 	return (
-		<div className="body justify-content-center">
+		<div className= "container">
+		<div className="col-sm justify-content-center">
 		<h1>Resume</h1>
 		<br />
 		<br />
-		<h3>Download my full resume here: < VscFilePdf size={40} /></h3>
+		<h3>Download my full resume here:
+			<a className="resumeLink" href={resume}>
+				< VscFilePdf size={40} />
+			</a>
+		</h3>
+
 		<br />
 		<br />
 		<h3>Education</h3>
@@ -27,9 +34,11 @@ applications.
 <br />
 <br />
 
-HTML5 - CSS3 - JavaScript - jQuery - Node.js - PHP - Laravel - Express.js - MVC - React.js -
+HTML5 - CSS3 - JavaScript - jQuery - Node.js - PHP - Laravel - Express - MVC - React -
 Database Theory - MongoDB - MySQL - Command Line - Git Bash
 
+ </div>
+ 
  </div>
 		
 	);

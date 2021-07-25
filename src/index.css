@@ -18,3 +18,10 @@ color:white;
 	color: white;
 }
 
+.iconLink :hover{
+  color: gray;
+}
+
+.resumeLink {
+	color:black;
+}
