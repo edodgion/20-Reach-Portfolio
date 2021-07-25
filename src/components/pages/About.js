@@ -14,6 +14,7 @@ export default function About() {
         <br />
         <br />
         <br />
+        <br />
         <p>
           Hello my name is Eric Dodgion, currently residing in Colorado Springs, 
           Colorado. I am a Full Stack Developer that studied through the University of Denver
