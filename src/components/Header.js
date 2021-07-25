@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Projects from './pages/Projects';
+import Project from './pages/Projects';
 import Contact from './pages/Contact';
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
       return <About />;
     }
     if (currentPage === 'Projects') {
-      return <Projects />;
+      return <Project />;
     }
     return <Contact />;
   };
